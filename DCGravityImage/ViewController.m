@@ -7,16 +7,18 @@
 //
 
 #import "ViewController.h"
-
+#import "DCGravityImageView.h"
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+        
+    DCGravityImageView *imageView = [[DCGravityImageView alloc]initWithFrame:CGRectMake(0, 100, 375, 200) ContentSize:CGSizeMake(600, 450)];
+    [self.view addSubview:imageView];
+    [imageView setupImage:[UIImage imageNamed:@"test"] placeholder:nil];
 }
 
 

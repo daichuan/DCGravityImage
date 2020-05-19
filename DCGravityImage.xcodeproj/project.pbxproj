@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434862412473D1980009D111 /* DCGravityImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4348623D2473D1980009D111 /* DCGravityImageView.m */; };
+		434862422473D1980009D111 /* DCMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4348623E2473D1980009D111 /* DCMotionManager.m */; };
 		43B71A4C246AA13400E078F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B71A4B246AA13400E078F6 /* AppDelegate.m */; };
 		43B71A4F246AA13400E078F6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B71A4E246AA13400E078F6 /* SceneDelegate.m */; };
 		43B71A52246AA13400E078F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B71A51246AA13400E078F6 /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		43B71A5D246AA13500E078F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B71A5C246AA13500E078F6 /* main.m */; };
 		43B71A67246AA13500E078F6 /* DCGravityImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B71A66246AA13500E078F6 /* DCGravityImageTests.m */; };
 		43B71A72246AA13600E078F6 /* DCGravityImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B71A71246AA13600E078F6 /* DCGravityImageUITests.m */; };
+		45C1BDD5450E965FE79EC685 /* libPods-DCGravityImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1989603B441772DDBA83654 /* libPods-DCGravityImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060705383AE96B1231AD2ED7 /* Pods-DCGravityImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCGravityImage.debug.xcconfig"; path = "Target Support Files/Pods-DCGravityImage/Pods-DCGravityImage.debug.xcconfig"; sourceTree = "<group>"; };
+		4348623D2473D1980009D111 /* DCGravityImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCGravityImageView.m; sourceTree = "<group>"; };
+		4348623E2473D1980009D111 /* DCMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMotionManager.m; sourceTree = "<group>"; };
+		4348623F2473D1980009D111 /* DCMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMotionManager.h; sourceTree = "<group>"; };
+		434862402473D1980009D111 /* DCGravityImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCGravityImageView.h; sourceTree = "<group>"; };
 		43B71A47246AA13400E078F6 /* DCGravityImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCGravityImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B71A4A246AA13400E078F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43B71A4B246AA13400E078F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +62,8 @@
 		43B71A6D246AA13500E078F6 /* DCGravityImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCGravityImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B71A71246AA13600E078F6 /* DCGravityImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGravityImageUITests.m; sourceTree = "<group>"; };
 		43B71A73246AA13600E078F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856C79650944EDB72A7ACD1A /* Pods-DCGravityImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCGravityImage.release.xcconfig"; path = "Target Support Files/Pods-DCGravityImage/Pods-DCGravityImage.release.xcconfig"; sourceTree = "<group>"; };
+		F1989603B441772DDBA83654 /* libPods-DCGravityImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCGravityImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C1BDD5450E965FE79EC685 /* libPods-DCGravityImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4348623C2473D17B0009D111 /* DCGravityImageView */ = {
+			isa = PBXGroup;
+			children = (
+				434862402473D1980009D111 /* DCGravityImageView.h */,
+				4348623D2473D1980009D111 /* DCGravityImageView.m */,
+				4348623F2473D1980009D111 /* DCMotionManager.h */,
+				4348623E2473D1980009D111 /* DCMotionManager.m */,
+			);
+			path = DCGravityImageView;
+			sourceTree = "<group>";
+		};
 		43B71A3E246AA13400E078F6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,8 @@
 				43B71A65246AA13500E078F6 /* DCGravityImageTests */,
 				43B71A70246AA13600E078F6 /* DCGravityImageUITests */,
 				43B71A48246AA13400E078F6 /* Products */,
+				CF299D4B59BB6F3F4ED25A8B /* Pods */,
+				45AF2B16B801B3AA11E797D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +128,7 @@
 		43B71A49246AA13400E078F6 /* DCGravityImage */ = {
 			isa = PBXGroup;
 			children = (
+				4348623C2473D17B0009D111 /* DCGravityImageView */,
 				43B71A4A246AA13400E078F6 /* AppDelegate.h */,
 				43B71A4B246AA13400E078F6 /* AppDelegate.m */,
 				43B71A4D246AA13400E078F6 /* SceneDelegate.h */,
@@ -137,6 +162,23 @@
 			path = DCGravityImageUITests;
 			sourceTree = "<group>";
 		};
+		45AF2B16B801B3AA11E797D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1989603B441772DDBA83654 /* libPods-DCGravityImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF299D4B59BB6F3F4ED25A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				060705383AE96B1231AD2ED7 /* Pods-DCGravityImage.debug.xcconfig */,
+				856C79650944EDB72A7ACD1A /* Pods-DCGravityImage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B71A76246AA13600E078F6 /* Build configuration list for PBXNativeTarget "DCGravityImage" */;
 			buildPhases = (
+				F9CF924099A7BA8AD8E6904D /* [CP] Check Pods Manifest.lock */,
 				43B71A43246AA13400E078F6 /* Sources */,
 				43B71A44246AA13400E078F6 /* Frameworks */,
 				43B71A45246AA13400E078F6 /* Resources */,
@@ -262,11 +305,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F9CF924099A7BA8AD8E6904D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCGravityImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43B71A43246AA13400E078F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434862422473D1980009D111 /* DCMotionManager.m in Sources */,
+				434862412473D1980009D111 /* DCGravityImageView.m in Sources */,
 				43B71A52246AA13400E078F6 /* ViewController.m in Sources */,
 				43B71A4C246AA13400E078F6 /* AppDelegate.m in Sources */,
 				43B71A5D246AA13500E078F6 /* main.m in Sources */,
@@ -437,15 +507,17 @@
 		};
 		43B71A77246AA13600E078F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060705383AE96B1231AD2ED7 /* Pods-DCGravityImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHX694MS79;
 				INFOPLIST_FILE = DCGravityImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DC.DCGravityImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daichuan.DCGravityImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,15 +525,17 @@
 		};
 		43B71A78246AA13600E078F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856C79650944EDB72A7ACD1A /* Pods-DCGravityImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHX694MS79;
 				INFOPLIST_FILE = DCGravityImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DC.DCGravityImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daichuan.DCGravityImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
